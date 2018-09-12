@@ -2,3 +2,22 @@ html {
   font-family: 'Noto Sans', sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
 }
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: #005e76;
+  border-bottom: 1px solid #8bc9d9;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .head-right {
+    text-align: right;
+  }
+
+}
