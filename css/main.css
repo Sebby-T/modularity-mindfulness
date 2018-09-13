@@ -21,7 +21,8 @@ html {
 
 .btn-ghost {
   color: #005e76;
-  border-color: #0084a6;
+  border-color: #8bc9d9;
+  border-width: 1px;
 }
 
 .btn-ghost:hover {
