@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
@@ -8,6 +8,10 @@ html {
   text-decoration: none;
   color: #005e76;
   border-bottom: 1px solid #8bc9d9;
+}
+
+.nav a:hover {
+  color: #000;
 }
 
 .slogan {
@@ -19,8 +23,15 @@ html {
   color: #005e76;
   border-color: #0084a6;
 }
+
+.btn-ghost:hover {
+  color: #000;
+  background-color: #0084a6;
+  border-color: #005e76;
+}
+
 .border {
-  border-top: 2px solid #e2e2e2
+  border-top: 2px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
