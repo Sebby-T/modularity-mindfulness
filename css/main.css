@@ -1,5 +1,8 @@
 html {
   font-family: "Noto Sans", sans-serif;
+}
+
+i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
@@ -7,7 +10,7 @@ html {
   display: block;
   text-decoration: none;
   color: #005e76;
-  border-bottom: 1px solid #8bc9d9;
+  border-bottom: 2px solid #8bc9d9;
 }
 
 .nav a:hover {
@@ -22,7 +25,7 @@ html {
 .btn-ghost {
   color: #005e76;
   border-color: #8bc9d9;
-  border-width: 1px;
+  border-width: 2px;
 }
 
 .btn-ghost:hover {
@@ -33,6 +36,10 @@ html {
 
 .border {
   border-top: 2px solid #e2e2e2;
+}
+
+footer {
+  color: #666;
 }
 
 @media only screen and (min-width: 60em) {
